@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="configLoader.cpp" />
+    <ClCompile Include="dataStorage.cpp" />
+    <ClCompile Include="fileLoader.cpp" />
+    <ClCompile Include="forParser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainParser.cpp" />
+    <ClCompile Include="prepareString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configLoader.h" />
+    <ClInclude Include="dataStorage.h" />
+    <ClInclude Include="fileLoader.h" />
+    <ClInclude Include="forParser.h" />
+    <ClInclude Include="mainParser.h" />
+    <ClInclude Include="prepareString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

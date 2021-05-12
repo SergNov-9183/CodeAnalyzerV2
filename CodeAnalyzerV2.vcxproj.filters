@@ -13,10 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Config Loader">
+      <UniqueIdentifier>{1c743737-e265-4d23-8884-93dfdb5bcdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Loader">
+      <UniqueIdentifier>{4b625c0d-7eae-4bc8-a65e-4bfd71cd55b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preparre String">
+      <UniqueIdentifier>{09122be3-9a4f-41ef-a078-4c86dd1c0fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parsers">
+      <UniqueIdentifier>{71f6564a-dddf-457d-ac8e-e836a18d07ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parsers\Main Parser">
+      <UniqueIdentifier>{37a52d44-b8d7-446d-b641-3c07c863bb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parsers\For Parser">
+      <UniqueIdentifier>{cb19847f-f06c-4513-a4a2-c9c4594c5ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Storage">
+      <UniqueIdentifier>{9e173d5c-68ae-451d-aa46-03094b083727}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="configLoader.cpp">
+      <Filter>Config Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="fileLoader.cpp">
+      <Filter>File Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="prepareString.cpp">
+      <Filter>Preparre String</Filter>
+    </ClCompile>
+    <ClCompile Include="forParser.cpp">
+      <Filter>Parsers\For Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="mainParser.cpp">
+      <Filter>Parsers\Main Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="dataStorage.cpp">
+      <Filter>Data Storage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configLoader.h">
+      <Filter>Config Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="fileLoader.h">
+      <Filter>File Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="prepareString.h">
+      <Filter>Preparre String</Filter>
+    </ClInclude>
+    <ClInclude Include="mainParser.h">
+      <Filter>Parsers\Main Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="forParser.h">
+      <Filter>Parsers\For Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="dataStorage.h">
+      <Filter>Data Storage</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
